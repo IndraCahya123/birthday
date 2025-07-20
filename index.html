@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lovely</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/birthday_cake_1_new.gif">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Tampilan depan kartu -->
+        <div class="front active" id="cardFront">
+            <h1>🎉 HAPPY BIRHTDAY 🎉</h1>
+            <button class="open-button" onclick="openCard()">Buka Kartu</button>
+        </div>
+
+        <!-- Tampilan dalam kartu -->
+        <div class="inside" id="cardInside">
+            <h1>Happy Birthday My Love!</h1>
+            <p>Semoga pacarku yang sangat baik dan cantik ini selalu diberikan yang terbaik untuk hidupnya yaaa</p>
+            <div class="slideshow" id="slideshow">
+                <img src="/1.jpg" class="active" />
+                <img src="/2.jpg" />
+                <img src="/3.jpg" />
+            </div>
+            <button class="back-button" onclick="closeCard()">Kembali</button>
+        </div>
+    </div>
+
+    <audio id="birthdayMusic" loop>
+        <source src="https://media.githubusercontent.com/media/IndraCahya123/birthday/refs/heads/main/piano_birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
