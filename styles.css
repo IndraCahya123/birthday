@@ -72,3 +72,29 @@
   opacity: 1;
   position: absolute;
 }
+
+@media only screen and (max-width: 760px) {
+  .front > h1 {
+    font-size: 10px !important;
+  }
+
+  .front > .open-button {
+    font-size: 10px !important;
+  }
+
+  .inside {
+    max-height: 85vh !important;
+  }
+
+  .inside > h1 {
+    font-size: small !important;
+  }
+
+  .inside > p {
+    font-size: small !important;
+  }
+  
+  .inside > .back-button {
+    font-size: 10px !important;
+  }
+}
